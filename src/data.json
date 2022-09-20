@@ -1,0 +1,27 @@
+{
+  "content" : {
+    "navbar" : {
+      "brand" : "",
+      "links" : [
+        {
+          "title": "Link 1",
+          "path": "#1"
+        },
+        {
+          "title": "Link 2",
+          "path": "#2"
+        },
+        {
+          "title": "Link 3",
+          "path": "#3"
+        }
+      ]
+    },
+    "landing": {
+      "bgImage": "public/assets/imgs/puppy1.jpeg",
+      "text": "Mod Posh",
+      "subtext": "modern online solutions",
+      "callToAction": "start now"
+    }
+  }
+}

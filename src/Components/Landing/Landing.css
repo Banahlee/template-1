@@ -1,0 +1,86 @@
+.landing-container {
+    max-width: 100vw !important;
+    overflow: hidden;
+    height: 90vh;
+    position: relative;
+}
+
+.hero-img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../../public/assets/imgs/home-office.jpeg");
+    height: 95%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    animation: zoom-out 1.5s ease;
+  }
+
+  .carot-btn {
+    position: absolute;
+    bottom: -1.5rem;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  
+  .carot-btn button {
+    border: 1px solid transparent;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    z-index: 4 !important;
+    box-shadow: 0px 5px 5px var(--shadowColor);
+  }
+  
+  .fa-solid {
+    color: black !important;
+  }
+  
+  .hero-text {
+    animation: drop 1.5s ease;
+  }
+  
+  .subtext {
+    animation: rise 1.5s ease;
+  }
+  
+  .cta-button {
+    border: 1px solid white;
+    animation: rise 1.75s ease;
+  }
+
+  .cta-button:hover {
+    background-color: transparent;
+    color: whitesmoke;
+    transition: all 0.5s ease;
+  }
+  
+  .cta-button:hover .cta-text {
+    color: whitesmoke;
+  }
+  
+
+
+  .hero-text {
+      color: white;
+      font-size: 3rem;
+  }
+  
+  .subtext {
+    font-size: 1.5rem;
+  }
+
+  @media (max-width: 912px) {
+    .hero-img {
+      background-attachment: scroll;
+    }
+  }

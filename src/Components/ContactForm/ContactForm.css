@@ -1,0 +1,11 @@
+.submit-btn {
+    color: #fff;
+    background-color: var(--themeColor);
+    border: none;
+    font-size: 1.5rem;
+}
+
+.submit-btn:hover {
+    opacity: 0.8;
+    transition: all 0.3s ease
+}

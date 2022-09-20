@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+DTSTAMP:20220915T220000Z
+DTSTART:20220915T220000Z
+DTEND:20220915T221500Z
+SUMMARY:Invisalign Concierge Call
+DESCRIPTION:Be on the lookout for an incoming call at this time for a quick convo about Invisalign treatment with your personal Invsialign Smile Concierge.
+LOCATION:We’ll call you
+STATUS:CONFIRMED
+LAST-MODIFIED:20220914T213642Z
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR
